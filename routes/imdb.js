@@ -6,6 +6,7 @@ module.exports = async (app) => {
   // Route crawling by ID
   app.get("/imdb/:ids", async function (req, res) {
     const { out } = req.query;
+
     let ids = req.params.ids;
 
     // Check if ids exist

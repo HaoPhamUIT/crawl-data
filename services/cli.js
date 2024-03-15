@@ -56,7 +56,7 @@ const processCLI = (program) => {
       if (program.id || program.list || program.path || program.out) {
         status = true;
         console.log(
-          "Please indicate a specific project by adding -p [project name]"
+          "Please indicate specific project by adding -p [project name]"
         );
       }
       break;
